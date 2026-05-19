@@ -1,52 +1,93 @@
-# Explorando Workflows Automatizados com AWS Step Functions
+# Implementando sua Primeira Stack com AWS CloudFormation
 
 ## 📌 Descrição
-Este projeto foi desenvolvido como parte do desafio da DIO sobre AWS Step Functions. O objetivo foi compreender como funcionam workflows automatizados utilizando serviços da AWS para orquestração de processos.
+Este projeto foi desenvolvido como parte do desafio da DIO com foco na criação da primeira Stack utilizando AWS CloudFormation. O objetivo foi compreender como automatizar a criação de infraestrutura na AWS utilizando arquivos declarativos.
 
 ---
 
 ## 🎯 Objetivos de Aprendizagem
 
-- Aplicar conceitos de workflows automatizados
-- Utilizar AWS Step Functions
-- Integrar funções AWS Lambda
-- Realizar validações em fluxos automatizados
+- Entender o funcionamento do AWS CloudFormation
+- Criar infraestrutura como código (IaC)
+- Automatizar provisionamento de recursos AWS
 - Documentar processos técnicos utilizando GitHub
+- Aplicar conceitos de automação em nuvem
 
 ---
 
-## ☁️ AWS Step Functions
+## ☁️ O que é AWS CloudFormation?
 
-O AWS Step Functions é um serviço da AWS utilizado para criar máquinas de estado (State Machines) responsáveis por automatizar processos e integrar diferentes serviços da nuvem.
+O AWS CloudFormation é um serviço da AWS utilizado para criar e gerenciar infraestrutura através de arquivos de template.
 
 Com ele é possível:
 
-- Automatizar fluxos de trabalho
-- Integrar múltiplos serviços AWS
-- Criar execuções serverless
-- Monitorar etapas em tempo real
-- Tratar erros e exceções de forma visual
+- Automatizar ambientes
+- Padronizar infraestrutura
+- Versionar configurações
+- Reduzir erros manuais
+- Provisionar recursos rapidamente
 
 ---
 
 ## 🛠️ Etapas Realizadas
 
-### 1. Conhecendo o AWS Step Functions
-Foi realizado o estudo sobre o funcionamento do serviço e suas aplicações em arquiteturas modernas.
+### 1. Estudo do AWS CloudFormation
+Foi realizado o entendimento sobre stacks, templates e infraestrutura como código.
 
-### 2. Benefícios do AWS Step Functions
-Entre os principais benefícios observados estão:
+### 2. Criação da Primeira Stack
+Foi criada uma Stack utilizando templates para provisionamento automático de recursos na AWS.
 
-- Escalabilidade automática
-- Redução de código manual
-- Facilidade de monitoramento
-- Integração com AWS Lambda
-- Organização visual do fluxo
+### 3. Estruturação do Template
+Os templates foram organizados utilizando sintaxe declarativa para definição dos recursos.
 
-### 3. Criação de Workflow Automatizado
-Foi criado um fluxo utilizando estados para simular um processo automatizado.
+Exemplo de recursos que podem ser provisionados:
 
-Exemplo de fluxo:
+- EC2
+- S3
+- VPC
+- IAM
+- Security Groups
 
-```text
-Início → Validação → Processamento → Finalização
+### 4. Deploy da Stack
+A Stack foi executada dentro do ambiente AWS para criação automática da infraestrutura.
+
+### 5. Testes e Validações
+Foram realizados testes para validar:
+
+- Criação correta dos recursos
+- Funcionamento da Stack
+- Estrutura do template
+- Automatização do ambiente
+
+---
+
+## 📚 Aprendizados
+
+Durante este laboratório foi possível compreender:
+
+- Conceitos de Infrastructure as Code (IaC)
+- Funcionamento de Stacks
+- Criação de templates declarativos
+- Provisionamento automatizado de infraestrutura
+- Boas práticas de documentação técnica
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- AWS CloudFormation
+- AWS EC2
+- AWS S3
+- GitHub
+- Markdown
+
+---
+
+## 🔗 Referências
+
+- https://aws.amazon.com/cloudformation/
+- https://docs.aws.amazon.com/cloudformation/
+- https://github.com/
+
+---
+
