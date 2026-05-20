@@ -1,75 +1,73 @@
-# Implementando sua Primeira Stack com AWS CloudFormation
+# Automatizando Infraestrutura com AWS CloudFormation
 
 ## 📌 Descrição
-Este projeto foi desenvolvido como parte do desafio da DIO com foco na criação da primeira Stack utilizando AWS CloudFormation. O objetivo foi compreender como automatizar a criação de infraestrutura na AWS utilizando arquivos declarativos.
+Este projeto foi desenvolvido como parte do desafio da DIO com foco na automação de infraestrutura utilizando AWS CloudFormation. O objetivo foi compreender como provisionar recursos da AWS através de infraestrutura como código (IaC), tornando ambientes mais padronizados, escaláveis e automatizados.
 
 ---
 
 ## 🎯 Objetivos de Aprendizagem
 
-- Entender o funcionamento do AWS CloudFormation
-- Criar infraestrutura como código (IaC)
+- Entender os conceitos de Infrastructure as Code (IaC)
+- Utilizar AWS CloudFormation para automação
+- Criar e gerenciar Stacks
 - Automatizar provisionamento de recursos AWS
 - Documentar processos técnicos utilizando GitHub
-- Aplicar conceitos de automação em nuvem
 
 ---
 
 ## ☁️ O que é AWS CloudFormation?
 
-O AWS CloudFormation é um serviço da AWS utilizado para criar e gerenciar infraestrutura através de arquivos de template.
+O AWS CloudFormation é um serviço que permite criar e gerenciar recursos da AWS através de arquivos declarativos chamados templates.
 
 Com ele é possível:
 
-- Automatizar ambientes
+- Automatizar ambientes completos
 - Padronizar infraestrutura
-- Versionar configurações
 - Reduzir erros manuais
-- Provisionar recursos rapidamente
+- Reutilizar templates
+- Facilitar deploys de infraestrutura
 
 ---
 
 ## 🛠️ Etapas Realizadas
 
 ### 1. Estudo do AWS CloudFormation
-Foi realizado o entendimento sobre stacks, templates e infraestrutura como código.
+Foi realizado o entendimento sobre Stacks, templates e automação de infraestrutura.
 
-### 2. Criação da Primeira Stack
-Foi criada uma Stack utilizando templates para provisionamento automático de recursos na AWS.
+### 2. Criação da Infraestrutura Automatizada
+A infraestrutura foi definida utilizando templates declarativos do CloudFormation.
 
-### 3. Estruturação do Template
-Os templates foram organizados utilizando sintaxe declarativa para definição dos recursos.
+### 3. Provisionamento de Recursos
+Foram simulados recursos como:
 
-Exemplo de recursos que podem ser provisionados:
-
-- EC2
-- S3
-- VPC
-- IAM
+- Amazon EC2
+- Amazon S3
 - Security Groups
+- IAM
+- VPC
 
 ### 4. Deploy da Stack
-A Stack foi executada dentro do ambiente AWS para criação automática da infraestrutura.
+A Stack foi executada para provisionamento automático dos recursos definidos.
 
 ### 5. Testes e Validações
 Foram realizados testes para validar:
 
-- Criação correta dos recursos
 - Funcionamento da Stack
 - Estrutura do template
-- Automatização do ambiente
+- Criação automática dos recursos
+- Organização da infraestrutura
 
 ---
 
 ## 📚 Aprendizados
 
-Durante este laboratório foi possível compreender:
+Durante este laboratório foi possível aprender:
 
-- Conceitos de Infrastructure as Code (IaC)
-- Funcionamento de Stacks
-- Criação de templates declarativos
-- Provisionamento automatizado de infraestrutura
-- Boas práticas de documentação técnica
+- Conceitos de automação em nuvem
+- Infraestrutura como código (IaC)
+- Criação de templates no CloudFormation
+- Provisionamento automatizado de ambientes
+- Organização de documentação técnica
 
 ---
 
@@ -88,6 +86,4 @@ Durante este laboratório foi possível compreender:
 - https://aws.amazon.com/cloudformation/
 - https://docs.aws.amazon.com/cloudformation/
 - https://github.com/
-
----
 
