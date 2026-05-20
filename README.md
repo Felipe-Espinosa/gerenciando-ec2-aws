@@ -1,81 +1,79 @@
-# Automatizando Infraestrutura com AWS CloudFormation
+# Executando Tarefas Automatizadas com Lambda Function e S3
 
 ## 📌 Descrição
-Este projeto foi desenvolvido como parte do desafio da DIO com foco na automação de infraestrutura utilizando AWS CloudFormation. O objetivo foi compreender como provisionar recursos da AWS através de infraestrutura como código (IaC), tornando ambientes mais padronizados, escaláveis e automatizados.
+Este projeto foi desenvolvido como parte do desafio da DIO com foco em automação utilizando AWS Lambda e Amazon S3. O objetivo foi compreender como executar tarefas automatizadas em resposta a eventos utilizando arquitetura serverless na AWS.
 
 ---
 
 ## 🎯 Objetivos de Aprendizagem
 
-- Entender os conceitos de Infrastructure as Code (IaC)
-- Utilizar AWS CloudFormation para automação
-- Criar e gerenciar Stacks
-- Automatizar provisionamento de recursos AWS
+- Entender o funcionamento do AWS Lambda
+- Integrar Lambda Functions com Amazon S3
+- Automatizar tarefas baseadas em eventos
+- Aplicar conceitos de arquitetura serverless
 - Documentar processos técnicos utilizando GitHub
 
 ---
 
-## ☁️ O que é AWS CloudFormation?
+## ☁️ AWS Lambda e Amazon S3
 
-O AWS CloudFormation é um serviço que permite criar e gerenciar recursos da AWS através de arquivos declarativos chamados templates.
+### AWS Lambda
+O AWS Lambda é um serviço serverless responsável pela execução de código sob demanda sem necessidade de gerenciar servidores.
 
-Com ele é possível:
+### Amazon S3
+O Amazon S3 é um serviço de armazenamento de objetos utilizado para armazenar arquivos de forma escalável e segura.
 
-- Automatizar ambientes completos
-- Padronizar infraestrutura
-- Reduzir erros manuais
-- Reutilizar templates
-- Facilitar deploys de infraestrutura
+A integração entre os dois permite automatizar processos como:
+
+- Processamento de uploads
+- Validação de arquivos
+- Geração automática de logs
+- Execução de rotinas automatizadas
+- Tratamento de eventos em tempo real
 
 ---
 
 ## 🛠️ Etapas Realizadas
 
-### 1. Estudo do AWS CloudFormation
-Foi realizado o entendimento sobre Stacks, templates e automação de infraestrutura.
+### 1. Estudo do AWS Lambda
+Foi realizado o entendimento sobre funções serverless e execução baseada em eventos.
 
-### 2. Criação da Infraestrutura Automatizada
-A infraestrutura foi definida utilizando templates declarativos do CloudFormation.
+### 2. Configuração do Amazon S3
+Foi criado um bucket S3 para armazenamento e geração de eventos automáticos.
 
-### 3. Provisionamento de Recursos
-Foram simulados recursos como:
+### 3. Integração entre Lambda e S3
+A função Lambda foi configurada para ser acionada automaticamente após eventos no bucket S3.
 
-- Amazon EC2
-- Amazon S3
-- Security Groups
-- IAM
-- VPC
-
-### 4. Deploy da Stack
-A Stack foi executada para provisionamento automático dos recursos definidos.
+### 4. Automação de Tarefas
+Foi simulada a execução automatizada de tarefas como processamento de arquivos enviados ao bucket.
 
 ### 5. Testes e Validações
 Foram realizados testes para validar:
 
-- Funcionamento da Stack
-- Estrutura do template
-- Criação automática dos recursos
-- Organização da infraestrutura
+- Execução automática da Lambda
+- Disparo correto por eventos do S3
+- Funcionamento da automação
+- Integração entre os serviços
 
 ---
 
 ## 📚 Aprendizados
 
-Durante este laboratório foi possível aprender:
+Durante este laboratório foi possível compreender:
 
-- Conceitos de automação em nuvem
-- Infraestrutura como código (IaC)
-- Criação de templates no CloudFormation
-- Provisionamento automatizado de ambientes
-- Organização de documentação técnica
+- Conceitos de computação serverless
+- Automação orientada a eventos
+- Integração entre serviços AWS
+- Funcionamento do AWS Lambda
+- Utilização do Amazon S3 em processos automatizados
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
+- AWS Lambda
+- Amazon S3
 - AWS CloudFormation
-- AWS EC2
-- AWS S3
 - GitHub
 - Markdown
 
@@ -83,7 +81,9 @@ Durante este laboratório foi possível aprender:
 
 ## 🔗 Referências
 
-- https://aws.amazon.com/cloudformation/
-- https://docs.aws.amazon.com/cloudformation/
+- https://aws.amazon.com/lambda/
+- https://aws.amazon.com/s3/
+- https://docs.aws.amazon.com/
 - https://github.com/
 
+---
